@@ -1,0 +1,507 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1440px;
+    padding-left: 109px;
+    padding-right: 109px;
+    margin: 0 auto;
+}
+
+body {
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    overflow-x: hidden;
+    font-family: 'Inika', serif;
+
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    min-height: 134px;
+    align-items: center;
+}
+
+header {
+    background-color: #EDF2EC;
+}
+
+nav ul {
+    display: flex;
+    grid-gap: 0 46px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6em;
+    line-height: 50px;
+/* identical to box height, or 312% */
+
+
+color: #010201;
+transition: all 0.3s;
+
+}
+
+nav ul li a:hover {
+    color: #E06733
+}
+.header-bottom {
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+
+    background-image: url(../img/leafs.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-bottom: 62.64px;
+
+}
+.header-bottom h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    max-width: 549px;
+    padding-top: 98px;
+    padding-bottom: 42px;
+/* or 111% */
+
+
+    color: #717171;
+
+}
+.header-bottom h1 span {
+    color: #499A18;
+}
+.header-bottom p {
+    max-width: 549px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 35px;
+    padding-bottom: 48px;
+/* or 175% */
+
+
+    color: #636060;
+
+}
+.header-bottom button {
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6em;
+    line-height: 20px;
+    padding: 14px 27px;
+/* or 125% */
+
+    text-align: center;
+
+    color: #000000;
+    background: none;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    margin-right: 410px;
+}
+main {
+    background: #FFFFFF;
+}
+
+.about-info {
+    display: flex;
+    flex-direction: column;
+
+    background-image: url(../img/houseplant1.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-bottom:94px;
+}
+
+.About h2 {
+    font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    max-width: 463px;
+    padding-top: 161px;
+    padding-bottom: 40px;
+
+    color: #499A18;
+
+}
+
+.About h2 span {
+    color: #E06733;
+}
+
+.About p {
+    font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 30px;
+    max-width: 605px;
+/* or 150% */
+
+
+    color: #636060;
+}
+.Service {
+    background-color: #EDF2EC;
+    padding-bottom: 121px;
+}
+
+.service-info {
+    display: flex;
+    min-height: 224px;
+    align-items: center;
+
+}
+.service-info h2 {
+    font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4em;
+    line-height: 52px;
+    max-width: 306px;
+    margin-right:142px ;
+
+    color: #499A18;
+}
+
+.btn button {
+    border: 1px solid #E06733;
+    border-radius: 5px;
+
+    font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 26px;
+/* identical to box height */
+    padding: 12px 40px;
+    margin-right: 38px;
+
+color: #E06733; 
+}
+.btn button:last-child {
+    margin-right:0;
+}
+.service-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 55px 117px;
+    
+}
+.item img {
+    width: 100%;
+}
+
+.item h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 20px;
+    text-align: center;
+    padding: 10px 0;
+    border-left: 1px solid #E3E1D5;
+    border-right: 1px solid #E3E1D5;
+
+/* or 100% */
+
+
+    color: #E06733;
+}
+.item p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6em;
+    line-height: 20px;
+    text-align: center;
+    
+    border-bottom: 1px solid #E3E1D5;
+    border-left: 1px solid #E3E1D5;
+    border-right: 1px solid #E3E1D5;
+    border-radius: 0px 0px 20px 20px;
+    padding-bottom: 36px;
+    /* identical to box height, or 125% */
+    
+    
+    color: #717171;    
+}
+
+.price-main {
+    background-image: url(../img/leafs2.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-position-y: 200px;
+}
+.price-header1 h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4em;
+    line-height: 48px;
+    color: #000000;
+
+}
+
+.price-header2 h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4em;
+    line-height: 50px;
+    /* or 125% */
+
+    text-align: right;
+    color: #000000;
+    max-width: 452px;
+    
+}
+
+.price-header2{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.price-header2 button {
+    background-color: #FFFFFF;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    padding: 12px 30px;
+    align-self: flex-end;
+    margin-top: 38px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 26px;
+/* identical to box height */
+
+    text-align: center;
+
+    color: #E06733;
+}
+
+.price-header2 span {
+    color: #499A18;
+}
+
+.price-headerP{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.price-menu {
+    width: 332px;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+    min-height: 208px;
+    margin-top: -50px;
+    margin-bottom: 130px;
+}
+
+
+.menu {
+    background: #EDF2EC;
+    border-radius: 20px;
+    margin: 32px 41px;
+
+       
+}
+
+.collumn {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.title {
+    padding-left: 20px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 20px;
+    /* or 100% */
+
+
+    color: #000000;
+}
+
+.icon {
+    width: 20px;
+}
+
+.content {
+    max-height: 0;
+    transition: max-height 1s ease-out;
+    overflow: hidden;
+    padding: 0;
+    margin: 0 40px;
+}
+
+.content-transition {
+    transition: max-height 3s ease-in;
+    border-top: 0.5px solid #AEA1A1;
+    max-height: 1500px;
+    padding-top: 6px;
+}
+
+.content p {
+
+    font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 10px;
+/* or 100% */
+
+
+    color: #717171;
+
+} 
+
+.content h3 {
+    margin-top: 6px;
+    margin-bottom: 12px;
+
+    font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2em;
+    line-height: 20px;
+/* or 167% */
+
+
+    color: #000000;
+}
+
+.content span {
+    font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8em;
+    line-height: 20px;
+/* or 167% */
+
+
+    color: #E06733;
+}
+
+.content button {
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    padding: 3px 20px;
+    margin-bottom: 12px;
+
+    font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4em;
+    line-height: 20px;
+/* or 143% */
+
+
+    color: #717171;
+}
+
+.Contacts {
+    background-image: url(../img/contact_woman.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-position-x: 109px ;
+    background-color: #EDF2EC;
+}
+
+.Contacts h2 {
+    font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    
+    color: #499A18;
+
+    text-align: center;
+    padding-top: 60px;
+}
+
+.Contacts select {
+    border: none;
+    background-color: #D6E7D2;
+    width: 450px;
+    height: 50px;
+    box-shadow: 0px 5px 5px #bcbcbc;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 40px;
+/* identical to box height, or 200% */
+
+    letter-spacing: 0.05em;
+
+    color: #717171;
+}
+.Contacts option {
+    background-color: #DCE9D9;
+}
+
+.selection {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 109px;
+    margin-top: 37px;
+    padding-bottom: 352px;
+}
+
+footer {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 50px;
+/* identical to box height, or 250% */
+
+
+    color: #000000;
+}
+
+.prodBy {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.prodBy1 span  {
+    margin-right: 15px ;
+}
+
+.prodBy2 {
+    padding-right:1px;
+}
+.socialMedia img {
+    margin-right: 23px;
+}
+
+.socialMedia img:last-child {
+margin-right: 0;
+}
+
+@media screen and (max-width: 720px) {
+    
+}
